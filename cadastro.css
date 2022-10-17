@@ -1,0 +1,97 @@
+html{
+    height: auto;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(teal, turquoise);
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ header{
+    text-align: justify;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 3% 10% 5% 25%;
+} 
+
+header img{
+    margin-right: 30px;
+}
+
+h3{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    margin: 15px 20px;
+}
+
+main{
+    display: inline-block;  
+}
+
+main form{
+    display: block;
+    width: 100%; 
+    text-align: center;
+    margin: 0 30%;
+    font-weight: 600;
+    margin: auto;
+}
+
+main label{
+    display: block;
+    text-align: center;
+}
+
+main input{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.botao{
+    display: block;
+    width: 150px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(67, 247, 187);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px auto;
+    font-size: 12px;
+}
+.botao:hover{
+    transform: scale(1.15);
+}
+
+footer{
+    text-align: center;
+    color: azure;
+    font: monospace;
+    font-size: small;
+    width: 100%;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 790px){
+    header{
+        align-items: center;
+        margin: 13% 10% 10% 35%;
+        text-align: center;
+    }
+}

@@ -1,0 +1,119 @@
+html{
+    height: 100%;
+}
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient(teal, turquoise);
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+ header{
+    text-align: justify;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 3% 10% 5% 30%;
+} 
+
+header img{
+    margin-right: 30px;
+}
+
+h3{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    margin: 15px 20px;
+}
+
+main{
+    display: inline-block;
+}
+
+main img{
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+}
+
+form{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    margin: 0 30%;
+    font-weight: 600;
+   
+}
+
+main input{
+    padding: 10px;
+    margin: 10px;
+}
+
+.botao{
+    display: block;
+    width: 150px;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgb(67, 247, 187);
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 15px auto;
+    font-size: 12px;
+}
+.botao:hover{
+    transform: scale(1.15);
+}
+
+footer{
+    text-align: center;
+    color: azure;
+    font: monospace;
+    font-size: small;
+    width: 100%;
+    margin: 2% auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: azure;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 790px){
+    html{
+        height: auto;
+    }
+    body{
+        width: 100%;
+        text-align: center;
+    }
+    header{
+        margin: 5%;
+        justify-content: center;
+        justify-items: center;
+    }
+    main{
+        margin: auto;
+        text-align: center;
+    }
+    form{
+        margin: 10 auto;
+        margin-bottom: 70px;
+        width: 40%;
+        text-align: center;
+    }
+    main form label input{
+        text-align: center;
+        width: 90%;
+        padding: 10px;
+        margin: 10% auto;
+    }
+}
